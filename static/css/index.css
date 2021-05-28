@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    background-color: #eeeeee;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* HEADER */
+header {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: black;
+    align-items:center; 
+}
+  
+header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+  
+header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+  
+.header-right{
+    float: right;
+}
+
+/* CONTEÚDO */
+.content{
+    width: 100%;
+}
+
+/* FORM */
+#div-form{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#div-form h2{
+    margin-bottom: 30px;
+}
+
+form label{
+    display: block;
+    font-weight: bold;
+    margin: 5px;
+}
+
+form input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* TABLE */
+
+table{
+    border: 1px solid;
+    margin: auto;
+}
+
+table td, table th{
+    border: 1px solid;
+}
+
+/* FOOTER */
+
+footer {
+    bottom: 0;
+    left: 0;
+    margin-top: 9%;
+    width: 100%;
+    height: 70px;
+    font-size: 19px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+  
+div input{
+    width: 80%;
+    height: 30px;
+}
+
+table, td, th{
+    border: solid 1px #000;
+}
+
+#div-form{
+    text-align: center;
+}
+
+form div {
+    margin: 20px;
+}
+
+form label{
+    display: block;
+    font-weight: bold;
+}
